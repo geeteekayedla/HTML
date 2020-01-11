@@ -8,7 +8,10 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-- script:python -mhtllib "1.html"
+
+
+
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -17,3 +20,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+
+- script:python -mhtllib "1.html"
