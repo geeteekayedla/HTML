@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 
-
+- script:python -mhtllib "1.html"
 
 steps:
 - script: echo Hello, world!
@@ -22,4 +22,3 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-- script:python -mhtllib "1.html"
